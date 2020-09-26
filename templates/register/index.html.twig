@@ -5,12 +5,25 @@
 {% endblock %}
 
 {% block body %}
+	{{ include('components/header.html.twig') }}
 	{% for message in app.flashes('success') %}
 		<div class="alert alert-success">
 			{{ message }}
 		</div>
 	{% endfor %}
-	<div>
-		{{ form(form) }}
+	<div class="container">
+		<div class="row">
+			<div class="col s8 offset-s2">
+				<div id="main" class="posts-content" role="main">
+					<div>
+						<div class="card ">
+							<div class="card-content">
+								{{ form(form) }}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	{% endblock %}

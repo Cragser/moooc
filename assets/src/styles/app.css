@@ -1,0 +1,23 @@
+.bg-notary{
+	background-color: #003a70 !important;
+	font-size: 1rem;
+}
+
+.bg-action{
+	background-color: #349e90 !important;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating).link-notary {
+	color: #008675!important;
+}
+
+.link-notary{
+	color: #008675!important;
+	text-decoration: underline;
+}
+
+.center-content{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
