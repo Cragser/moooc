@@ -1,0 +1,8 @@
+{
+  "intelephense.environment.phpVersion": "7.2",
+  "phpcs.standard": "PSR2",
+  "phpcs.ignorePatterns": ["*/.history/*", "*/vendor/*"],
+  "emmet.includeLanguages": {
+    "twig": "html"
+  }
+}
