@@ -1,5 +1,5 @@
 ##
-
+php bin/console doctrine:database:create
 php in/console make:entity
 
 php bin/console doctrine:schema:update --force

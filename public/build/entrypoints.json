@@ -4,10 +4,13 @@
       "js": [
         "http://localhost:8080/build/runtime.js",
         "http://localhost:8080/build/vendors~app~app_admin~app_user.js",
+        "http://localhost:8080/build/vendors~app~app_user.js",
+        "http://localhost:8080/build/vendors~app.js",
         "http://localhost:8080/build/app.js"
       ],
       "css": [
-        "http://localhost:8080/build/vendors~app~app_admin~app_user.css",
+        "http://localhost:8080/build/vendors~app~app_user.css",
+        "http://localhost:8080/build/vendors~app.css",
         "http://localhost:8080/build/app.css"
       ]
     },
@@ -15,24 +18,19 @@
       "js": [
         "http://localhost:8080/build/runtime.js",
         "http://localhost:8080/build/vendors~app~app_admin~app_user.js",
-        "http://localhost:8080/build/vendors~app_admin~app_user.js",
+        "http://localhost:8080/build/vendors~app~app_user.js",
+        "http://localhost:8080/build/vendors~app_user.js",
         "http://localhost:8080/build/app_user.js"
       ],
       "css": [
-        "http://localhost:8080/build/vendors~app~app_admin~app_user.css",
-        "http://localhost:8080/build/app_user.css"
+        "http://localhost:8080/build/vendors~app~app_user.css"
       ]
     },
     "app_admin": {
       "js": [
         "http://localhost:8080/build/runtime.js",
         "http://localhost:8080/build/vendors~app~app_admin~app_user.js",
-        "http://localhost:8080/build/vendors~app_admin~app_user.js",
         "http://localhost:8080/build/app_admin.js"
-      ],
-      "css": [
-        "http://localhost:8080/build/vendors~app~app_admin~app_user.css",
-        "http://localhost:8080/build/app_admin.css"
       ]
     }
   }

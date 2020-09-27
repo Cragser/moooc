@@ -18,7 +18,7 @@ Encore.setOutputPath("public/build/")
   // only needed for CDN's or sub-directory deploy
   //.setManifestKeyPrefix('build/')
   .addEntry("app", "./assets/src/index.tsx")
-  .addEntry("app_user", "./assets/src/user.tsx")
+  .addEntry("app_user", "./assets/src/app/user/index.tsx")
   .addEntry("app_admin", "./assets/src/admin.tsx")
   .enableTypeScriptLoader(function (tsConfig) {})
   .enableForkedTypeScriptTypesChecking()

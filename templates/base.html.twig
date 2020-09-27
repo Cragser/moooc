@@ -8,18 +8,13 @@
 			{% endblock %}
 		</title>
 		{% block stylesheets %}
-			<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-
-			<link rel="stylesheet" href="{{ asset('http://localhost:8080/build/vendors~app~app_user.css') }}">
-			<link rel="stylesheet" href="{{ asset('http://localhost:8080/build/app.css') }}">
+			{{ encore_entry_link_tags('app') }}
 		{% endblock %}
 	</head>
 	<body>
 		{% block body %}{% endblock %}
 		{% block javascripts %}
-			<script src="{{ asset('http://localhost:8080/build/runtime.js') }}"></script>
-			<script src="{{ asset('http://localhost:8080/build/vendors~app~app_user.js') }}"></script>
-			<script src="{{ asset('http://localhost:8080/build/app.js') }}"></script>
+			{{ encore_entry_script_tags('app') }}
 		{% endblock %}
 	</body>
 </html>

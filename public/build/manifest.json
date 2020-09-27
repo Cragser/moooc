@@ -1,12 +1,13 @@
 {
   "build/app.css": "http://localhost:8080/build/app.css",
   "build/app.js": "http://localhost:8080/build/app.js",
-  "build/app_admin.css": "http://localhost:8080/build/app_admin.css",
   "build/app_admin.js": "http://localhost:8080/build/app_admin.js",
-  "build/app_user.css": "http://localhost:8080/build/app_user.css",
   "build/app_user.js": "http://localhost:8080/build/app_user.js",
   "build/runtime.js": "http://localhost:8080/build/runtime.js",
-  "build/vendors~app_admin~app_user.js": "http://localhost:8080/build/vendors~app_admin~app_user.js",
-  "build/vendors~app~app_admin~app_user.css": "http://localhost:8080/build/vendors~app~app_admin~app_user.css",
-  "build/vendors~app~app_admin~app_user.js": "http://localhost:8080/build/vendors~app~app_admin~app_user.js"
+  "build/vendors~app.css": "http://localhost:8080/build/vendors~app.css",
+  "build/vendors~app.js": "http://localhost:8080/build/vendors~app.js",
+  "build/vendors~app_user.js": "http://localhost:8080/build/vendors~app_user.js",
+  "build/vendors~app~app_admin~app_user.js": "http://localhost:8080/build/vendors~app~app_admin~app_user.js",
+  "build/vendors~app~app_user.css": "http://localhost:8080/build/vendors~app~app_user.css",
+  "build/vendors~app~app_user.js": "http://localhost:8080/build/vendors~app~app_user.js"
 }
