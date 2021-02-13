@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class UserDashboardController extends AbstractController
 {
     /**
-     * @Route("/dashboard", name="user_dashboard")
+     * @Route("/dashboard/{reactRouting}", name="user_dashboard",  defaults={"reactRouting": null})
      */
     public function index()
     {

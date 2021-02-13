@@ -40,3 +40,4 @@ security:
         - { path: ^/dashboard, roles: ROLE_USER }
         - { path: ^/my/posts, roles: ROLE_USER }
         - { path: ^/post/create, roles: ROLE_USER }
+        - { path: ^/meeting, roles: ROLE_USER }

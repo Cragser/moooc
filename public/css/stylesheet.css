@@ -1,0 +1,8 @@
+.chat-header__title,
+.meeting-info-icon__icon-wrap,
+.meeting-info-icon__icon {
+	display: none!important;
+}
+.meeting-info-icon__icon-wrap .meeting-info-icon__icon{
+	display: none;
+}

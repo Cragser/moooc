@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			{% block title %}
+				Welcome!
+			{% endblock %}
+		</title>
+		{% block stylesheets %}
+			<link type="text/css" rel="stylesheet" href="https://source.zoom.us/1.8.0/css/bootstrap.css"/>
+			<link type="text/css" rel="stylesheet" href="https://source.zoom.us/1.8.0/css/react-select.css"/>
+			<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+		{% endblock %}
+	</head>
+	<body class="ReactModal__Body--open">
+		{% block body %}
+			<input id="signatureID" type="hidden" value="{{ signature }}">
+			<input id="meetingNumber" type="hidden" value="{{ meetingNumber }}">
+			<input id="userName" type="hidden" value="{{ userName }}">
+			<input id="passWord" type="hidden" value="{{ passWord }}">
+			<input id="userEmail" type="hidden" value="{{ userEmail }}">
+			<input id="apiPublic" type="hidden" value="{{ apiPublic }}">
+
+
+
+			<!-- added on import -->
+			<div id="zmmtg-root"></div>
+			<div id="aria-notify-area"></div>
+
+			<!-- added on meeting init -->
+			<div class="ReactModalPortal"></div>
+			<div class="ReactModalPortal"></div>
+			<div class="ReactModalPortal"></div>
+			<div class="ReactModalPortal"></div>
+			<div class="global-pop-up-box"></div>
+			<div class="sharer-controlbar-container sharer-controlbar-container--hidden"></div>
+
+		{% endblock %}
+		{% block javascripts %}
+			<!-- import ZoomMtg dependencies -->
+			<script src="https://source.zoom.us/1.8.0/lib/vendor/react.min.js"></script>
+			<script src="https://source.zoom.us/1.8.0/lib/vendor/react-dom.min.js"></script>
+			<script src="https://source.zoom.us/1.8.0/lib/vendor/redux.min.js"></script>
+			<script src="https://source.zoom.us/1.8.0/lib/vendor/redux-thunk.min.js"></script>
+			<script src="https://source.zoom.us/1.8.0/lib/vendor/jquery.min.js"></script>
+			<script src="https://source.zoom.us/1.8.0/lib/vendor/lodash.min.js"></script>
+
+			<!-- import ZoomMtg -->
+			<script src="https://source.zoom.us/zoom-meeting-1.8.0.min.js"></script>
+
+			<!-- import local .js file -->
+			<script src="js/index.js"></script>
+		{% endblock %}
+	</body>
+</html></body></html>
