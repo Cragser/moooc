@@ -18,7 +18,7 @@
     "@types/materialize-css": "^1.0.8",
     "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8",
-    "@types/react-redux": "^7.1.9",
+    "@types/react-redux": "^7.1.16",
     "@zoomus/websdk": "1.8.1",
     "bootstrap": "^4.5.2",
     "clsx": "^1.1.1",
